@@ -13,7 +13,7 @@ See the [Pulumi documentation](https://www.pulumi.com/docs/) for more details on
 
 ## Checking Out a Single Example
 
-You can checkout only the examples you want by using a [sparse checkout](https://git-scm.com/docs/git-sparse-checkout). The following example shows how checkout only the example you want.
+You can checkout only the examples you want by using a [sparse checkout](https://git-scm.com/docs/git-sparse-checkout). The following example shows how checkout only the example you want.t
 
 ```bash
 $ mkdir examples && cd examples
