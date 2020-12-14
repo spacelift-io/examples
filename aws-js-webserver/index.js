@@ -38,3 +38,4 @@ let server = new aws.ec2.Instance("web-server-www", {
 
 exports.publicIp = server.publicIp;
 exports.publicHostName = server.publicDns;
+exports.testOutput = "testOutput";
