@@ -3,7 +3,7 @@
 const pulumi = require("@pulumi/pulumi");
 const aws = require("@pulumi/aws");
 
-let size = "t2.micro";    // t2.micro is available in the AWS free tier
+let size = "t2.nano";    // t2.micro is available in the AWS free tier
 
 // Get the id for the latest Amazon Linux AMI
 let ami = aws.getAmi({
